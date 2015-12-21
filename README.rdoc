@@ -1,0 +1,1 @@
+This is my version of the finance tracker app from Udemy The Complete Ruby on Rails Developer Course.
