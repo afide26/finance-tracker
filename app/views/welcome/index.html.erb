@@ -1,2 +1,13 @@
-<h1>Welcome to the finance tracker app</h1>
+<div class="jumbotron">
+	<div class="welcome-content well">
+		<h1 class="text-center">Welcome to Alan's Finance Tracker</h1>
+		<h3 class="text-center">Monitor up to 10 of your favorite stocks </h3>
+		
+		<% if !current_user %>
+		<p class="text-center">
+		<%= link_to "Join Us", new_user_registration_path, style:"width: 15em !important;", class:"btn btn-lg btn-success" %>
+		</p>
+		<% end %>
+	</div>
 
+</div>

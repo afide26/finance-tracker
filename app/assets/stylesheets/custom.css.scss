@@ -1,3 +1,25 @@
+/*WELCOME PAGE DESIGN*/
+
+.jumbotron{
+	position: relative;
+	width: 100% !important;
+	top:3px;
+	background: rgba(110, 181, 68, .3);
+	background-size: cover;
+	background-image: url("smarket.jpg");
+	.welcome-content.well{
+		margin: 0 auto;
+		width: 90%;
+		color: #000 !important;
+		font-weight: 800;
+		background-color: rgba(255,255,255, .75) !important;
+		h3{line-height: 1.2em !important;}
+	}
+	.btn.btn-success{
+		font-weight: 800;
+		color: #ededed !important;
+	}
+}
 .results-block{
 	display:inline-block;
 }
