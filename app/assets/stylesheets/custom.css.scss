@@ -1,7 +1,16 @@
 /*WELCOME PAGE DESIGN*/
 
+i.fa {
+	font-size: 1.25em !important;
+	color: blue !important;
+}
+
+i.fa-gg-circle{
+	color: green !important;
+}
 .jumbotron{
 	margin-top: -20px;
+	border-radius: 0 !important;
 	width: 100% !important;
 	height: 400px !important;
 	background: rgba(110, 181, 68, .3);
@@ -41,6 +50,15 @@
 	padding-top: 15px;
 }
 
+
+/*DELETE BUTTON*/
+
+.btn.btn-xs.btn-danger{
+	color:#fff !important;
+	&:hover{
+		color: blue #important;
+	};
+}
 .nav.navbar-right li {
 	.btn {
 		color: #fff !important;
